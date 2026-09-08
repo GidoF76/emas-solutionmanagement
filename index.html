@@ -20,7 +20,13 @@
       .card h2 { font-size: 15px; margin: 0 0 6px; }
       .card p { margin: 0; font-size: 14px; }
       code { background: #eceff3; padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+      a { color: var(--red); }
       footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
+      ul.pages { list-style: none; padding: 0; margin: 0;
+        display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+      ul.pages li { border: 1px solid var(--line); border-radius: 8px; }
+      ul.pages a { display: block; padding: 10px 12px; text-decoration: none; font-size: 14px; }
+      ul.pages a:hover { background: #fafbfc; }
     </style>
   </head>
   <body>
@@ -28,27 +34,37 @@
     <p class="by">This page is maintained by the students of Program and Project Methodologies.</p>
 
     <div class="card">
-      <h2>This page is yours</h2>
+      <h2>One page each</h2>
       <p>
-        Everything you see here comes from one file, <code>index.html</code>, in a public
-        repository. Change that file, propose the change, and after review it appears
-        on this page on the live site.
+        Every student has their own file in this public repository. Open yours, edit it,
+        and propose the change. After the lecturer accepts it, your page is live.
       </p>
     </div>
 
-    <div class="card">
-      <h2>How to change it</h2>
-      <p>
-        Open the repository in your own browser, edit the file, and propose the change as a
-        pull request. No software to install. Your change goes live only after the
-        lecturer approves it — which is the control you will be auditing.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2>Add your section below</h2>
-      <p>Replace this card with your own. Keep it short.</p>
-    </div>
+    <ul class="pages">
+      <li><a href="daniel-g.html">Daniel G.</a></li>
+      <li><a href="shuning-d.html">Shuning D.</a></li>
+      <li><a href="fanger-h.html">Fanger H.</a></li>
+      <li><a href="pauline-r.html">Pauline R.</a></li>
+      <li><a href="julian-b.html">Julian B.</a></li>
+      <li><a href="ivahna-s.html">Ivahna S.</a></li>
+      <li><a href="elda-k.html">Elda K.</a></li>
+      <li><a href="yuewen-b.html">Yuewen B.</a></li>
+      <li><a href="omilkhon-k.html">Omilkhon K.</a></li>
+      <li><a href="tifani-z.html">Tifani Z.</a></li>
+      <li><a href="martin-v.html">Martin V.</a></li>
+      <li><a href="perry-e.html">Perry E.</a></li>
+      <li><a href="bas-v.html">Bas V.</a></li>
+      <li><a href="ayse-m.html">Ayşe M.</a></li>
+      <li><a href="johanna-d.html">Johanna D.</a></li>
+      <li><a href="mascha-b.html">Mascha B.</a></li>
+      <li><a href="kaleb-d.html">Kaleb D.</a></li>
+      <li><a href="deniel-s.html">Deniel S.</a></li>
+      <li><a href="karan-s.html">Karan S.</a></li>
+      <li><a href="radu-p.html">Radu P.</a></li>
+      <li><a href="simone-o.html">Simone O.</a></li>
+      <li><a href="sheryl-s.html">Sheryl S.</a></li>
+    </ul>
 
     <footer>Sandboxed: this page cannot read anything belonging to the rest of the site.</footer>
   </body>
