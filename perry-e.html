@@ -19,6 +19,9 @@
       }
       .card h2 { font-size: 15px; margin: 0 0 6px; }
       .card p { margin: 0; font-size: 14px; }
+      .card ol { margin: 6px 0 0; padding-left: 20px; font-size: 14px; }
+      .card li + li { margin-top: 4px; }
+      .card p.after { margin-top: 8px; }
       code { background: #eceff3; padding: 1px 5px; border-radius: 4px; font-size: 12px; }
       a { color: var(--red); }
       footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
@@ -35,10 +38,21 @@
 
     <div class="card">
       <h2>How to change this page</h2>
-      <p>
-        Open <code>perry-e.html</code> in the repository, click the pencil, edit the card
-        above, and propose the change. It goes live after the lecturer accepts it.
-      </p>
+      <ol>
+        <li>Sign in to GitHub with your own account.</li>
+        <li>In the search box at the top, type <code>emas-solutionmanagement</code> and press Enter.
+            Click <code>furyknl/emas-solutionmanagement</code> in the results.</li>
+        <li>Click your own file: <code>perry-e.html</code>.</li>
+        <li>Click the pencil.</li>
+        <li>GitHub asks you to make your own copy. Click <b>Fork this repository</b>.
+            Expect this message and ignore it: "You need to fork this repository to propose
+            changes. Sorry, you're not able to edit this repository directly…"</li>
+        <li>Replace "This is my page. I have not changed it yet." with a sentence of your own.</li>
+        <li>Click <b>Commit changes</b>, write a short message describing the change for future
+            reference, then click <b>Propose changes</b>.</li>
+        <li>Click <b>Create pull request</b>. That click sends your request to the lecturer.</li>
+      </ol>
+      <p class="after">Your change goes live after the lecturer accepts it.</p>
     </div>
 
     <p><a href="index.html">&larr; back to all pages</a></p>
