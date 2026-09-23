@@ -1,0 +1,15 @@
+name: Check the pages
+
+# Runs automatically on every pull request, before anything is merged.
+# It takes the proposed version of the pages and checks the HTML.
+on: pull_request
+
+jobs:
+  htmlhint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Take the proposed version
+        uses: actions/checkout@v4
+
+      - name: Check the HTML
+        run: npx --yes htmlhint@1 "*.html"
